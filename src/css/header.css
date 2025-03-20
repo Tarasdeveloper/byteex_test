@@ -1,0 +1,12 @@
+.header {
+  font-size: 11px;
+  background-color: #f9f0e5;
+  line-height: 3.18;
+  letter-spacing: 0.08em;
+  text-align: center;
+  color: #565656;
+}
+
+.header span {
+  color: #56565650;
+}

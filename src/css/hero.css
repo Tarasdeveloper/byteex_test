@@ -1,0 +1,57 @@
+.hero {
+  padding-top: 33px;
+  background-image: url(../img/hero_img.jpg);
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-position: bottom 1% right 6%;
+}
+
+.logo {
+  margin-bottom: 62px;
+  max-width: 200px;
+}
+
+.hero-title.title {
+  font-size: 38px;
+  line-height: 1.18;
+  margin-bottom: 25px;
+  max-width: 590px;
+}
+
+.hero_list {
+  margin-bottom: 35px;
+}
+
+.hero_list-item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+
+  letter-spacing: 0.03em;
+
+  margin-bottom: 23px;
+  max-width: 465px;
+}
+
+.hero_list-circle {
+  flex-shrink: 0;
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  background-color: var(--color-accent-bg);
+}
+
+.hero_review {
+  font-size: 12px;
+  max-width: 380px;
+  border: 1px solid rgb(237, 237, 237);
+  border-radius: 8px;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.08);
+  padding: 19px;
+}
+.hero_review-wrap {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}

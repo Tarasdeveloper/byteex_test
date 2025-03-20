@@ -1,0 +1,67 @@
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./fonts.css');
+@import url('./hero.css');
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  --font-main: 'Sofia Pro';
+  --font-second: "Suisse Int'l";
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-font-main: #676869;
+  --color-title-color: #01005b;
+  --color-accent-bg: #f9f0e5;
+}
+
+body {
+  font-family: var(--font-main);
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--color-font-main);
+
+  background-color: #fff;
+}
+
+button {
+  font-family: var(--font-second);
+}
+
+.container {
+  max-width: 1275px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+  color: var(--color-title-color);
+}
+
+.customize-wrapper {
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: var(--color-title-color);
+  display: inline-block;
+  text-align: center;
+}
+.customize-link {
+  display: inline-block;
+  max-width: 369px;
+  width: 100%;
+  padding: 16px;
+  font-family: var(--font-second);
+  line-height: 1.27;
+}
