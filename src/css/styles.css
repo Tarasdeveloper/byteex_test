@@ -2,11 +2,12 @@
 @import url('./header.css');
 @import url('./fonts.css');
 @import url('./hero.css');
+@import url('./benefits.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   --font-main: 'Sofia Pro';
-  --font-second: "Suisse Int'l";
+  --font-second: 'Suisse Intl';
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -41,7 +42,6 @@ button {
 }
 
 .title {
-  font-family: var(--font-main);
   font-weight: 400;
   font-size: 32px;
   line-height: 1.25;
@@ -54,12 +54,11 @@ button {
   border-radius: 5px;
   color: #fff;
   background-color: var(--color-title-color);
-  display: inline-block;
   text-align: center;
+  max-width: 369px;
 }
 .customize-link {
   display: inline-block;
-  max-width: 369px;
   width: 100%;
   padding: 16px;
   font-family: var(--font-second);
